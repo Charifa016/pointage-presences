@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scanner QR Code</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://unpkg.com/html5-qrcode/minified/html5-qrcode.min.js"></script>
+    <script src="js/scanner.js" defer></script>
+    <title>Scan QR Code</title>
 </head>
 <body>
     <header>
-        <h1>Scanner votre carte</h1>
+        <h1>Scanner votre QR Code</h1>
     </header>
-    <div id="reader" style="width: 300px; margin: auto;"></div>
-    <script src="js/scan.js"></script>
+    <main>
+        <div id="reader" style="width: 300px; margin: auto;"></div>
+        <p id="result" class="result-message"></p>
+    </main>
 </body>
 </html>
+
