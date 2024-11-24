@@ -1,44 +1,46 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #004aad;
     color: white;
-    padding: 20px;
+    padding: 10px 0;
 }
 
-a {
-    color: white;
-    background-color: #28a745;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-#reader {
+.logo {
+    width: 100px;
     margin: 20px auto;
-    padding: 10px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-button {
+.scan-btn {
     padding: 10px 20px;
-    background-color: #007bff;
+    font-size: 18px;
     color: white;
+    background-color: #004aad;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
+.scan-btn:hover {
+    background-color: #00337f;
 }
+
+.result-message {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
